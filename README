@@ -1,0 +1,7 @@
+This short program calculates the frequency tables for the Commodore 64 from note C-0 to B-7. It contains the constants for both PAL ("AEINRW") and NTSC ("CGKOTY") systems.
+
+Please note that the last note (B-7) will overflow the 16 bit value in PAL mode, so you might want to saturate it to $FFFF.
+
+The program prints all frequency values (SID & real), as well as saves two binary files with the tables for the low and high nybbles for the frequencies. You can include these files in your C64 source code.
+
+27.04.2012, Zoltán Majoros
